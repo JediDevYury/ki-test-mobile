@@ -121,7 +121,7 @@ export default function App() {
             onPress={pickImageAsync}
           />
           <Button
-            label="Use this photo"
+            label="Use this photo for show options"
             onPress={() => setShowAppOptions(true)}
           />
         </View>
