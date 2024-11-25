@@ -1,11 +1,8 @@
-name: Development Build
+name: Publish Test Build
 on:
-  workflow_dispatch:
-    inputs:
-      platform:
-        description: 'Platform to build (android, ios, or all)'
-        required: true
-        default: 'android'
+  push:
+    branches:
+      - develop
 jobs:
   build:
     runs-on: ubuntu-latest
