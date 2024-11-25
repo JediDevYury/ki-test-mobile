@@ -43,7 +43,7 @@ export default {
     },
     scheme: "ki-test-mobile",
     ios: {
-      buildNumber: "1",
+      buildNumber: "1.0.1",
       bundleIdentifier: bundleID,
       supportsTablet: true,
     },
