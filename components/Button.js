@@ -7,7 +7,7 @@ export default function Button({ label, theme, onPress }) {
       <View
         style={[
           styles.buttonContainer,
-          { borderWidth: 4, borderColor: "#ffd33d", borderRadius: 18 },
+          { borderWidth: 4, borderColor: "#333333", borderRadius: 18 },
         ]}
       >
         <Pressable
